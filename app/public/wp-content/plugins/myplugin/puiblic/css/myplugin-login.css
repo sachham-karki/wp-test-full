@@ -1,0 +1,4 @@
+
+body.login { background-color: #1e70cd;}
+body.login div#login form#loginform {border-radius: 10px;}
+body.login .custom-message{ text-align: center;}

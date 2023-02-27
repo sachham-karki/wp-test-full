@@ -1,0 +1,12 @@
+[12-Jan-2023 02:58:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Sachham\Local Sites\plant-world\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[12-Jan-2023 23:00:55 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Sachham\Local Sites\plant-world\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[26-Feb-2023 20:17:13 UTC] PHP Warning:  require_once(C:\Users\Sachham\Local Sites\plant-world\app\public\wp-content\plugins\myplugin/admin/settings-callback.php): Failed to open stream: No such file or directory in C:\Users\Sachham\Local Sites\plant-world\app\public\wp-content\plugins\myplugin\myplugin.php on line 50
+[26-Feb-2023 20:17:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\Sachham\Local Sites\plant-world\app\public\wp-content\plugins\myplugin/admin/settings-callback.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Sachham\Local Sites\plant-world\app\public\wp-content\plugins\myplugin\myplugin.php:50
+Stack trace:
+#0 C:\Users\Sachham\Local Sites\plant-world\app\public\wp-settings.php(447): include_once()
+#1 C:\Users\Sachham\Local Sites\plant-world\app\public\wp-config.php(93): require_once('C:\\Users\\Sachha...')
+#2 C:\Users\Sachham\Local Sites\plant-world\app\public\wp-load.php(50): require_once('C:\\Users\\Sachha...')
+#3 C:\Users\Sachham\Local Sites\plant-world\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Sachha...')
+#4 C:\Users\Sachham\Local Sites\plant-world\app\public\wp-admin\options-general.php(10): require_once('C:\\Users\\Sachha...')
+#5 {main}
+  thrown in C:\Users\Sachham\Local Sites\plant-world\app\public\wp-content\plugins\myplugin\myplugin.php on line 50
